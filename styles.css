@@ -30,6 +30,8 @@ body {
    letter-spacing: -.1rem;
    }
    
+   /* for devices larger than phone */
+   
    @media (min-width: 400px) {
 	 .main-container  {
     width: 85%;
@@ -40,6 +42,8 @@ body {
 	}
 	
    }
+   
+   /* for devices larger than tablet */
    
    @media (min-width: 768px) {
 	   .title {
